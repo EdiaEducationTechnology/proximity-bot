@@ -37,7 +37,7 @@ cd ..
 
 deactivate
 ```
-Create 3 django projects that will be run on different ports, i.e. localhost:8080 for rmxbot, localhost:8081 for nlp, localhost:8082 for scrasync. Update the settings for every django project; the django project that hosts rmxbot should have a valid path under TEMPLATES DIRS. The templates for rmxbot can be found here: https://github.com/dbrtk/rmxbot-tpl.
+Create 3 django projects that will be run on different ports, i.e. localhost:8080 for rmxbot, localhost:8081 for nlp, localhost:8082 for scrasync; each of these projects will need a celery worker (using redis). Update the settings for every django project; the django project that hosts rmxbot should have a valid path under TEMPLATES DIRS. The templates for rmxbot can be found here: https://github.com/dbrtk/rmxbot-tpl.
 
 The configuration files in rmxbot, scrasync, nlp should be updated as well:
 * rmxbot - https://github.com/dbrtk/rmxbot/blob/master/rmxbot/config/__init__.py;
