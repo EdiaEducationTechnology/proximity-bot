@@ -43,4 +43,5 @@ The configuration files in rmxbot, scrasync, nlp should be updated as well:
 * rmxbot - https://github.com/dbrtk/rmxbot/blob/master/rmxbot/config/__init__.py;
 * nlp - https://github.com/dbrtk/nlp/blob/master/nlp/config/__init__.py;
 * scrasyns - https://github.com/dbrtk/scrasync/blob/master/scrasync/config/__init__.py.
+
 The README file for every applicaiton lists the fields that need to be customised.
