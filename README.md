@@ -8,7 +8,7 @@ Proximity-bot
 * nlp - feature extraction algorithms with some text processing.
 
 ## requirements
-Prroximity-bot requires Pyhton 3, Mongodb and Redis; all other dependencies will be installed automatically.
+Prroximity-bot requires Pyhton 3, Mongodb and Redis; all other dependencies will be installed automatically. It is designed to run on threew different servers: the first that holds rmxbot; the second will hold scrtasync; the third holds nlp. These servers communicate using rsync, ssh and http. All these components can be ran on one machine in a demo setup; but when deploying it is wiser to separate these components. The seection below describes how to run proximity-bot on one machine. 
 
 # Running proximity-bot locally (as a demo)
 The easiest way is to run proximity-bot issuing the following commands:
@@ -19,14 +19,13 @@ cd proximitybot
 . run-with-gnome-terminal.sh
 
 ```
-The commands above work on linux.
+The commands above work on linux. 
 Then, the interface can be accessed under:
-
 ## http://localhost:8000/
 
 
 
-## How to install proximity-bot manually
+## Installing proximity-bot manually
 ```
 cd /opt
 git@github.com:dbrtk/rmxbot.git
