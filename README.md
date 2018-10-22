@@ -7,11 +7,10 @@ Proximity-bot
 * scrasync - the web scraper;
 * nlp - feature extraction algorithms with some text processing.
 
-
-# Running proximity-bot locally
 ## requirements
 Prroximity-bot requires Pyhton 3, Mongodb and Redis; all other dependencies will be installed automatically.
 
+# Running proximity-bot locally (as a demo)
 The easiest way is to run proximity-bot issuing the following commands:
 ```
 git clone git@github.com:dbrtk/proximity-bot.git
