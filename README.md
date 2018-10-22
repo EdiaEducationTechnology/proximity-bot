@@ -20,8 +20,12 @@ cd proximitybot
 
 ```
 The commands above work on linux.
+Then, the interface can be accessed under:
+http://localhost:8000/
 
-## Installing proximity-bot manually.
+
+
+## How to install proximity-bot manually
 ```
 cd /opt
 git@github.com:dbrtk/rmxbot.git
