@@ -1,17 +1,18 @@
 # proximity-bot
-Proximity-bot
-
 
 3 servers (or environments) are needed to run proximity-bot, these include: 
 * rmxbot - the server that handles http requests and makes the materials and graphs available to the public;
 * scrasync - the web scraper;
 * nlp - feature extraction algorithms with some text processing.
 
+These servers communicate using rsync, ssh and http. 
+
 ## requirements
-Prroximity-bot requires Pyhton 3, Mongodb and Redis; all other dependencies will be installed automatically. It is designed to run on 3 different servers: the first contains rmxbot; the secod takes care of scrtasync; the third holds nlp. These servers communicate using rsync, ssh and http. All these components can be ran on one machine in a demo setup; but when deploying it is wiser to separate them. The section below describes how to run proximity-bot on one machine as a demo or for play. 
+Prroximity-bot requires Pyhton 3, Mongodb and Redis; python dependencies will be installed automatically. 
 
 # Running proximity-bot locally (as a demo)
-The easiest way is to run proximity-bot issuing the following commands:
+All the components that make proximity-bot can be ran on one machine, this section describes how to do that. 
+The easiest way to run proximity-bot, it to issue the following commands:
 ```
 git clone git@github.com:dbrtk/proximity-bot.git
 cd proximitybot
