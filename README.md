@@ -9,10 +9,20 @@ Proximity-bot
 
 
 # Running proximity-bot locally
-
 ## requirements
 Prroximity-bot requires Pyhton 3, Mongodb and Redis; all other dependencies will be installed automatically.
 
+The easiest way is to run proximity-bot issuing the following commands:
+```
+git clone git@github.com:dbrtk/proximity-bot.git
+cd proximitybot
+. setup-proximitybot.sh
+. run-with-gnome-terminal.sh
+
+```
+The commands above work on linux.
+
+## Installing proximity-bot manually.
 ```
 cd /opt
 git@github.com:dbrtk/rmxbot.git
