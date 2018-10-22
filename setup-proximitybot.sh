@@ -35,4 +35,3 @@ python manage.py collectstatic -l
 cd -
 
 deactivate
-
