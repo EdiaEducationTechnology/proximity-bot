@@ -19,8 +19,8 @@ cd proximitybot
 . setup-proximitybot.sh
 . run-with-gnome-terminal.sh
 ```
-The commands above work on linux; in order to make them work, the following software is required: git, gnome-terminal, python3.
-After these commands succeed, the interface can be accessed under:
+The commands above work on linux; the following software is required: git, gnome-terminal, python3.
+After these commands succeed and rmxbot, scrasync, nlp are all running, the interface can be accessed under:
 ## http://localhost:8000/
 
 
