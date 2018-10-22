@@ -1,3 +1,7 @@
 .idea
 **/*.*~
 **/*.pyc
+bin
+env
+data
+static
