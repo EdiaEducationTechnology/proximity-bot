@@ -21,7 +21,8 @@ cd proximitybot
 ```
 The commands above work on linux.
 Then, the interface can be accessed under:
-http://localhost:8000/
+
+## http://localhost:8000/
 
 
 
