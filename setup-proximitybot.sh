@@ -34,4 +34,9 @@ cd sites/rmxbot_site
 python manage.py collectstatic -l
 cd -
 
+python -m nltk.downloader stopwords -d bin/nltk_data
+python -m nltk.downloader punkt -d bin/nltk_data
+python -m nltk.downloader averaged_perceptron_tagger -d bin/nltk_data
+python -m nltk.downloader wordnet -d bin/nltk_data
+
 deactivate

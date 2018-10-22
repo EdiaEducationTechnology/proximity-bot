@@ -1,0 +1,6 @@
+
+git@github.com:dbrtk/rmxbot.git@local_use
+
+git@github.com:dbrtk/scrasync.git@local_use
+
+git@github.com:dbrtk/nlp.git@local_use
