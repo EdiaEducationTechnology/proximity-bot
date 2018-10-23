@@ -15,7 +15,7 @@ All the components that make proximity-bot can be ran on one machine, this secti
 The easiest way to run proximity-bot, it to issue the following commands:
 ```
 git clone git@github.com:dbrtk/proximity-bot.git
-cd proximitybot
+cd proximity-bot
 . setup-proximitybot.sh
 . run-with-gnome-terminal.sh
 ```
