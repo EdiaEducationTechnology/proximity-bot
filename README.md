@@ -14,7 +14,7 @@ Prroximity-bot requires Pyhton 3, Mongodb and Redis; python dependencies will be
 All the components that make proximity-bot can be ran on one machine, this section describes how to do that. 
 The easiest way to run proximity-bot, it to issue the following commands:
 ```
-git clone git@github.com:dbrtk/proximity-bot.git
+git clone https://github.com/dbrtk/proximity-bot.git
 cd proximity-bot
 . setup-proximitybot.sh
 . run-with-gnome-terminal.sh
