@@ -1,4 +1,4 @@
 #!/bin/sh -x
 
 echo 'db.dropDatabase()' | mongo rmx
-rm -fr data
+rm -fr data/rmxbot/*
