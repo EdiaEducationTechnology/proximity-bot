@@ -1,3 +1,3 @@
--e git+git@github.com:dbrtk/rmxbot.git@local_use#egg=rmxbot
--e git+git@github.com:dbrtk/nlp.git@local_use#egg=nlp
--e git+git@github.com:dbrtk/scrasync.git@local_use#egg=scrasync
+-e git+https://github.com/dbrtk/rmxbot.git@local_use#egg=rmxbot
+-e git+https://github.com/dbrtk/nlp.git@local_use#egg=nlp
+-e git+https://github.com/dbrtk/scrasync.git@local_use#egg=scrasync
