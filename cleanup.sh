@@ -7,3 +7,4 @@ do
     fi
 done
 
+echo 'db.dropDatabase()' | mongo rmx
